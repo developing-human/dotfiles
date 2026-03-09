@@ -191,6 +191,8 @@ vim.keymap.set("n", "<leader>tv", function()
 	-- vim.diagnostic.config({ virtual_lines = new_config })
 end, { desc = "Toggle diagnostic [v]irtual_lines" })
 
+vim.keymap.set("n", "<leader>w", ":w<cr>", { desc = "[W]rite buffer" })
+
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
 -- is not what someone will guess without a bit more experience.

@@ -3,7 +3,7 @@ general.import = ["~/.config/alacritty/themes/cyberdream.toml"]
 
 [font]
 normal = { family = "Monaspace Neon" }
-size = 17
+size = 12
 
 [window]
 opacity = 0.95
